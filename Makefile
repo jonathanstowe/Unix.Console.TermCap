@@ -7,9 +7,11 @@ SRC = TermCap.cs \
 
 TARGET = Unix.Console.TermCap.dll
 
+MCS = gmcs
+
 
 $(TARGET):	$(SRC)
-	mcs /t:library -o $(TARGET) $(SRC)
+	$(MCS) /t:library -out:$(TARGET) -keyfile:Unix.Console.TermCap.snk $(SRC)
 
 clean:
 	rm -f *~ $(TARGET)

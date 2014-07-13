@@ -7,9 +7,9 @@
 //    Assembly declarations
 //
 // Author:
-//	Jonathan Stowe <jns@gellyfish.com>
+//	Jonathan Stowe <jns@gellyfish.co.uk>
 //
-// Copyright (c) 2004 Jonathan Stowe <jns@gellyfish.com>
+// Copyright (c) 2004 Jonathan Stowe <jns@gellyfish.co.uk>
 //
 
 //
@@ -32,18 +32,6 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-// $Log: AssemblyInfo.cs,v $
-// Revision 1.1.1.1  2004/09/07 20:14:11  jonathan
-// Added To CVS
-//
-// Revision 1.3  2004/08/26 18:29:46  jonathan
-// Added CVSIndentAttribute.cs
-// Added MANIFEST
-//
-// Revision 1.2  2004/07/16 18:28:09  jonathan
-// * Added header license to all file
-// * Added Entries to the Linux.User.LastLog
-//
 
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -62,4 +50,3 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyVersion("1.0.*")]
 
 [assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile("Unix.Console.TermCap.snk")]
