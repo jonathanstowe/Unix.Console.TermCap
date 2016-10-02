@@ -7,7 +7,7 @@ SRC = TermCap.cs \
 
 TARGET = Unix.Console.TermCap.dll
 
-MCS = gmcs
+MCS = mcs
 
 
 $(TARGET):	$(SRC)
